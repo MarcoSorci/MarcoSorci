@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,500;1,300&family=Bebas+Neue&display=swap');
+
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 50px 70px;
+    position: absolute;
+}
+
+header{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.icons{
+    height: 20px;
+}
+
+.pic{
+    height: 200px;
+    position: absolute;
+    right: 70px;
+}
+
+
+h2{
+    color: #0568FF;
+}
+
+header{
+    color: #1593CB;
+}
+
+strong{
+    color: #0E4194;
+}
+
+h3{
+    color: #0E4194;
+}
+
+.data b{
+    color: #1593CB;
+}
