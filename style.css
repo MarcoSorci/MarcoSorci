@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,500;1,300&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,500;1,300&family=Righteous&display=swap');
 
 body{
     font-family: 'Alegreya Sans SC', sans-serif;
-    margin: 50px 70px;
-    position: absolute;
+    margin: 50px 10%;
 }
 
 header{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive;
 }
 
 .icons{
@@ -16,6 +15,7 @@ header{
 
 a{
     text-decoration: none;
+    color: #0568FF;
 }
 
 a:hover{
@@ -24,10 +24,30 @@ a:hover{
 
 .pic{
     height: 200px;
-    position: absolute;
     right: 70px;
 }
 
+ul{
+    list-style: none;
+}
+
+.navmenu{
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    border: 2px #1593CB solid;
+    font-size: 2.5em;
+    border-radius: 3px;
+}
+
+.navmenu a{
+    color: #1593CB;
+    padding: 0px 6px;
+}
+
+.navmenu a:hover{
+    background-color: #1593CB;
+    color: aliceblue;
+}
 
 h2{
     color: #0568FF;
